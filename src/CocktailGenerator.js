@@ -134,7 +134,7 @@ class CocktailGenerator extends Component {
                         onChange={this.handleChange}
                     />
                     <button name="searchDrink" onClick={this.handleSearchClick}>Search</button>
-                    <button name="searchIngredient" onClick={this.handleSearchClick}>Search by Ingredient</button>
+                    <button name="searchIngredient" onClick={this.handleSearchClick}>Search Ingredient</button>
                     <button onClick={this.handleRandomClick}>Random Recipe</button>
                 </form>
                 {/* Display either search results or cocktail recipe based on displayResults/displayDrink */}
