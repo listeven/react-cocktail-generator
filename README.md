@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a web application built using React. 
 
-It utilizes a free JSON API provided by [TheCocktailDB] (https://www.thecocktaildb.com/).
+It utilizes a free JSON API provided by [TheCocktailDB](https://www.thecocktaildb.com/).
 
 This web application allows the user to search the database for a specific cocktail or for an ingredient in the database. 
 
