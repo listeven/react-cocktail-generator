@@ -96,8 +96,6 @@ class CocktailGenerator extends Component {
     handleSelectIngredient(name){
         const baseUrl = "https://www.thecocktaildb.com/api/json/v1/1/filter.php?i="
         const lookupUrl = baseUrl + name
-        console.log(name)
-        console.log(lookupUrl)
         fetch(lookupUrl)
         .then(response => response.json())
         .then(response => {
