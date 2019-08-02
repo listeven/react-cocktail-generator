@@ -57,6 +57,11 @@ header > p {
   width: 90%;
 }
 
+.search-results > p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .search-item {
   width: 20%;
   display: inline-block;
